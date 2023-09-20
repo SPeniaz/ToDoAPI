@@ -1,6 +1,6 @@
 ﻿namespace SharedModels.DTO.ResponseDtos;
 
-public class ReadTaskDto
+public class TaskReadDto
 {
     public int Id { get; set; }
     public string? Tittle { get; set; }

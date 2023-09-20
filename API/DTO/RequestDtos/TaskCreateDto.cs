@@ -2,7 +2,7 @@
 
 namespace SharedModels.DTO.RequestDtos;
 
-public class CreateTaskDto
+public class TaskCreateDto
 {
     [FromQuery(Name = "tittle")]
     public string Tittle { get; set; } = string.Empty;
