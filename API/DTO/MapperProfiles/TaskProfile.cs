@@ -9,7 +9,7 @@ namespace API.DTO.MapperProfiles
     {
         public TaskProfile()
         {
-            CreateMap<TaskEntity, TaskReadDto>();
+            CreateMap<TaskEntity, TaskDto>();
             CreateMap<TaskCreateDto, TaskEntity>();
         }
     }
